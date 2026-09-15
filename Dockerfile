@@ -1,5 +1,5 @@
 FROM ghcr.io/astral-sh/uv:debian-slim
-
+FROM python:3.12
 ENV DEBIAN_FRONTEND=noninteractive
 ENV PYTHONUNBUFFERED=1
 ENV LANG=en_US.UTF-8
